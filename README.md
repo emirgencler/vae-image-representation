@@ -109,6 +109,24 @@ This means the model is jointly trained for both:
 
 ---
 
+## Evaluation Metrics
+
+Reconstruction quality can be evaluated using common image similarity metrics:
+
+### PSNR (Peak Signal-to-Noise Ratio)
+Measures pixel-level reconstruction quality. Higher values indicate better reconstruction fidelity.
+
+### SSIM (Structural Similarity Index)
+Measures structural similarity between original and reconstructed images. Higher values indicate more visually similar outputs.
+
+### LPIPS (Learned Perceptual Image Patch Similarity)
+Measures perceptual similarity using deep feature representations. Lower values indicate better perceptual reconstruction quality.
+
+These metrics help evaluate whether the auxiliary payload objective affects image reconstruction performance.
+
+Current experiments achieved strong reconstruction quality while maintaining payload decoding capability.
+---
+
 ## What This Repository Demonstrates
 
 This repository demonstrates that a VAE can be extended with an auxiliary decoding objective that operates on model parameters rather than directly on input or latent vectors.
