@@ -177,6 +177,4 @@ That is the main research idea explored here.
 Computer Engineering Student
 Adana Alparslan Türkeş Science and Technology University
 
-```
-
 
